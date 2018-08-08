@@ -1,0 +1,11 @@
+entity Customer {
+	firstName String required
+	lastName String required
+	gender Gender required
+	city String required
+}
+
+enum Gender {
+	MALE, FEMALE, OTHER
+}
+
